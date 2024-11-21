@@ -28,7 +28,7 @@ bot.onText(
 
         try {
             // Notify the user
-            await bot.sendMessage(chatId, "Fetching the video, please wait...");
+            await bot.sendMessage(chatId, "⏳");
 
             // Fetch the video URL from Instagram
             const videoData = await insta(videoUrl);
